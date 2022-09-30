@@ -18,7 +18,7 @@ Consider the following pandas dataframe:
 1  9  16
 2  9  16
 ```
-Create a new Python file "my_simple_function.py" and write a simple function "transform_df" that takes `df` as an input argument and returns 3 dataframes:
+Create a new Python file `my_simple_function.py` and write a simple function `transform_df` that takes `df` as an input argument and returns 3 dataframes:
 
 - `df1`: the square root of each element in `df`
 
