@@ -57,6 +57,8 @@ Consider the following example function:
 ```Python
 def Train(run_prediction: bool = True):
 
+   from sklearn import datasets, linear_model
+
    # Load the diabetes dataset
    X_Train, y_Train = datasets.load_diabetes(return_X_y = True)
 
