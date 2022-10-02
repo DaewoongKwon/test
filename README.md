@@ -9,7 +9,7 @@ The following questions assume that you have Python and Git installed on your sy
   - Click on the `Clone` button in the top right 
   - Next click on `Generate Git Credentials` which will show you the Username and Password that you can use for Git authentication
   - Please reach out to `bbluhm.consulting@gmail.com` in case you are experiencing any troubles in the above step
-- Create a new git branch (with a name of your choice), later you will Git commit and push you code changes using this branch 
+- Create a new git branch (with a name of your choice - later you will Git commit and push you code changes using this branch) 
 - Create three new empty Python files called `my_functions.py`, `my_pandas_operations.py` and `my_classes.py`
 
 # 2.) 
