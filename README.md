@@ -3,12 +3,13 @@ Please try to address the following questions as much as possible, different sol
 
 The following questions assume that you have Python and Git installed on your system.
 
-# Question 1
-- Clone the following repo into your local environment: 
-- Create a new git branch with a name of your choice
+# 1.)
+- Clone the following repo into your local environment: https://benjaminbluhm@dev.azure.com/benjaminbluhm/Training/_git/Training 
+- Create a new git branch (with a name of your choice), later you will Git commit and push you code changes using this branch 
+- Create two new Python files called `my_functions.py` and `my_classes.py`
 
-# Question 2 
-Consider the following pandas dataframe:
+# 2.) 
+Consider the following example pandas dataframe:
 
 ```Python
 >>> df = pd.DataFrame([[9, 16]] * 3, columns=['A', 'B'])
@@ -18,46 +19,31 @@ Consider the following pandas dataframe:
 1  9  16
 2  9  16
 ```
-Create a new Python file `my_simple_function.py` and write a simple function `transform_df` that takes `df` as an input argument and returns 3 dataframes:
+Write a new function called `transform` in `my_functions.py` that takes this dataframe as an input and returns 3 dataframes with the following result:
 
 - `df1`: the square root of each element in `df`
-
-```Python
->>> df1
-     A    B
-0  3.0  4.0
-1  3.0  4.0
-2  3.0  4.0
-```
 - `df2`: the column sums of each column in `df`
-
-```Python
->>> df2
-A    27
-B    48
-```
-
 - `df3`: the row sums of each row in `df`
 
-```Python
->>> df3
-0    25
-1    25
-2    25
-```
+# 3.)
 
-# Question 3
+# 4.)
 
-# Question 3
-Write a simple class ""
+# 5.)
 
-instantiate the class and call the class method
+Write a new class called `Transformer` in `my_classes.py` that takes a dataframe as an input argument. Add a new class method using your previously defined `transform` function. 
 
-# Question 4
-Add docstrings to your class
+Instantiate the class and call the class method where you provide the example dataframe from Question 2.)
 
-# Question 5
-Write a new class "" that inherets from "" and overrides ""
+# 6.)
+
+Add docstrings to your class following one of the standard Python docstring formats of your choice.
+
+# 7.)
+
+Write a new class `ChildTransformer` in `my_classes.py` that inherets from `Transformer` class in Question 5.). Override `transform` so that it returns 1 dataframe with the following result:
+
+- `df1`: the square root of each element in `df`
 
 # Question 6
 Consider the following function:
