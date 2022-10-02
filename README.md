@@ -52,7 +52,7 @@ Add a Python statement to `my_pandas_operations.py` that joins the two dataframe
 
 # 5.)
 
-Add docstrings to your class following one of the standard Python docstring formats of your choice.
+Add docstrings to your `Transformer` class following one of the standard Python docstring formats of your choice.
 
 # 6.)
 
