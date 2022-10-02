@@ -29,34 +29,32 @@ Add a new function called `transform` to `my_functions.py` that takes this dataf
 Consider the following two example dataframes:
 
 ```Python
->>> df1 = pd.DataFrame({'a': ['foo', 'bar'], 'b': [1, 2]})
->>> df2 = pd.DataFrame({'a': ['foo', 'baz'], 'c': [3, 4]})
+>>> df1 = pd.DataFrame({'a': ['fff', 'brr'], 'b': [10, 20]})
+>>> df2 = pd.DataFrame({'a': ['fff', 'bzz'], 'c': [30, 40]})
 >>> df1
       a  b
-0   foo  1
-1   bar  2
+0   fff  10
+1   brr  20
 >>> df2
       a  c
-0   foo  3
-1   baz  4
+0   fff  30
+1   bzz  40
 ```
 
-Write a Python statement that joins the two dataframes such that the resulting dataframe contains all records from `df1`, and the matching records from `df2`.
+Write a Python statement that joins the two dataframes on column `a` such that the resulting dataframe contains all records from `df1`, and the matching records from `df2`.
 
 # 4.)
-
-# 5.)
 
 - Add a new class called `Transformer` to `my_classes.py` that takes a dataframe as an input argument
 - Add `transform` function from Question 2.) as a new class method to `Transformer`
 - Instantiate the class where you provide the example dataframe from Question 2.) as an input
 - Call `transform` method on the instantiated class object
 
-# 6.)
+# 5.)
 
 Add docstrings to your class following one of the standard Python docstring formats of your choice.
 
-# 7.)
+# 6.)
 
 - Write a new class `ChildTransformer` in `my_classes.py` that inherets from `Transformer` class in Question 5.)
 - Override `transform` so that it returns only one dataframe with the following result:
@@ -64,11 +62,11 @@ Add docstrings to your class following one of the standard Python docstring form
 - Instantiate the `ChildTransformer` class where you provide the example dataframe from Question 2.) as an input
 - Call `transform` method on the instantiated class object
 
-# 8.)
+# 7.)
 
 Create a new markdown file `explanations.md` and describe what your think are the main benefits of object oriented programming
 
-# 9.)
+# 8.)
 Consider the following example code:
 
 ```Python
@@ -93,6 +91,6 @@ def Train(run_prediction: bool = True):
 
 The above code violates some of Python's PEP8 Code Style Guide recommendations. Modify the code to make it more consistent with PEP8 style guide recommendations.   
 
-# 10.)
+# 9.)
 - Git commit your code changes 
 - Git push your code changes  
