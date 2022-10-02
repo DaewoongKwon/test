@@ -64,7 +64,7 @@ Add docstrings to your `Transformer` class following one of the standard Python 
 
 # 7.)
 
-Create a new markdown file `explanations.md` and describe what your think are the main benefits of object oriented programming
+Create a new markdown file `explanations.md` and briefly describe what your think are the main benefits of object oriented programming
 
 # 8.)
 Consider the following example code:
@@ -92,5 +92,5 @@ def Train(run_prediction: bool = True):
 The above code violates some of Python's PEP8 Code Style Guide recommendations. Modify the code to make it more consistent with PEP8 style guide recommendations.   
 
 # 9.)
-- Git commit your code changes 
-- Git push your code changes  
+- Git commit all your newly added code 
+- Git push your code 
