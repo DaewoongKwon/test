@@ -1,5 +1,5 @@
 # Introduction
-Please try to address the following questions as much as possible, different solutions can lead to good results. Feel free to use resources from the internet (stackoverflow etc.) that may help you in answering the questions. 
+Please try to address the following questions as much as possible, different solutions can lead to correct results. Feel free to use resources from the internet (stackoverflow etc.) that may help you in answering the questions. 
 
 The following questions assume that you have Python and Git installed on your system.
 
