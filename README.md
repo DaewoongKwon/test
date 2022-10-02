@@ -26,6 +26,22 @@ Add a new function called `transform` to `my_functions.py` that takes this dataf
 - `df3`: the row sums of each row in `df`
 
 # 3.)
+Consider the following two example dataframes:
+
+```Python
+>>> df1 = pd.DataFrame({'a': ['foo', 'bar'], 'b': [1, 2]})
+>>> df2 = pd.DataFrame({'a': ['foo', 'baz'], 'c': [3, 4]})
+>>> df1
+      a  b
+0   foo  1
+1   bar  2
+>>> df2
+      a  c
+0   foo  3
+1   baz  4
+```
+
+Write a Python statement that joins the two dataframes such that the resulting dataframe contains all records from `df1`, and the matching records from `df2`.
 
 # 4.)
 
