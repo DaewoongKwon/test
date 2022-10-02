@@ -31,7 +31,7 @@ Add a new function called `transform` to `my_functions.py` that takes this dataf
 
 # 5.)
 
-Add a new class called `Transformer` to `my_classes.py` that takes a dataframe as an input argument. Add a new class method using your previously defined `transform` function. 
+Add a new class called `Transformer` to `my_classes.py` that takes a dataframe as an input argument. Add `transform` function from Question 2.) as a new class method to `Transformer`. 
 
 Instantiate the class and call the class method where you provide the example dataframe from Question 2.)
 
