@@ -1,7 +1,7 @@
 # Introduction
-Please try to address the following questions as much as possible, different solutions can lead to correct results. Feel free to use resources from the internet (stackoverflow etc.) that may help you in answering the questions. 
+Please try to address the following questions as much as possible, different solutions can lead to correct results. Feel free to use any resources from the internet (for example stackoverflow etc.) that may help you in answering the questions. 
 
-The following questions assume that you have Python and Git installed on your system.
+The following questions assume that you have Python and Git installed on your system. If you do not have Git installed on your system you can download it for your operating system via this link: https://git-scm.com/downloads
 
 # 1.)
 - Clone the following repo into your local environment: https://benjaminbluhm@dev.azure.com/benjaminbluhm/Training/_git/Training 
