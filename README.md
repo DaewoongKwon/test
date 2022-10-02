@@ -52,9 +52,27 @@ Instantiate the `ChildTransformer` and call the class method where you provide t
 Create a new markdown file `explanations.md` and describe what are in your view the main benefits of object oriented programming
 
 # 9.)
-Consider the following function:
+Consider the following example function:
 
-The code in this function violates some of python's coding best practices (for example PEP8). Modify the code to improve on coding best practice   
+```Python
+def Train(run_prediction: bool = True):
+
+   # Load the diabetes dataset
+   X_Train, y_Train = datasets.load_diabetes(return_X_y = True)
+
+   # Create linear regression object
+   regr = linear_model.LinearRegression()
+
+   # Train the model
+   regr.fit(X_Train,y_Train)
+
+   if run_prediction == True:
+
+      # Make predictions
+      y_Pred = regr.predict(X_Train)
+```
+
+The above function violates some of Python's PEP8 Code Style Guide recommendations. Modify the code to be consistent with PEP8 style guide recommendations.   
 
 # 10.)
 - Git commit your code changes 
