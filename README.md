@@ -45,6 +45,8 @@ Write a new class `ChildTransformer` in `my_classes.py` that inherets from `Tran
 
 - `df1`: the square root of each element in `df`
 
+Instantiate the `ChildTransformer` and call the class method where you provide the example dataframe from Question 2.)
+
 # 8.)
 Consider the following function:
 
