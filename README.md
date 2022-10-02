@@ -53,7 +53,7 @@ Add docstrings to your class following one of the standard Python docstring form
 Create a new markdown file `explanations.md` and describe what your think are the main benefits of object oriented programming
 
 # 9.)
-Consider the following example function:
+Consider the following example code:
 
 ```Python
 def Train(run_prediction: bool = True):
@@ -75,7 +75,7 @@ def Train(run_prediction: bool = True):
       y_Pred = regr.predict(X_Train)
 ```
 
-The above function violates some of Python's PEP8 Code Style Guide recommendations. Modify the code to make it more consistent with PEP8 style guide recommendations.   
+The above code violates some of Python's PEP8 Code Style Guide recommendations. Modify the code to make it more consistent with PEP8 style guide recommendations.   
 
 # 10.)
 - Git commit your code changes 
