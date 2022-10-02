@@ -43,7 +43,7 @@ Add docstrings to your class following one of the standard Python docstring form
 # 7.)
 
 - Write a new class `ChildTransformer` in `my_classes.py` that inherets from `Transformer` class in Question 5.)
-- Override `transform` so that it returns one dataframe with the following result:
+- Override `transform` so that it returns only one dataframe with the following result:
   - `df1`: the square root of each element in `df`
 - Instantiate the `ChildTransformer` class where you provide the example dataframe from Question 2.) as an input
 - Call `transform` method on the instantiated class object
