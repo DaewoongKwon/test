@@ -6,7 +6,7 @@ The following questions assume that you have Python and Git installed on your sy
 # 1.)
 - Clone the following repo into your local environment: https://benjaminbluhm@dev.azure.com/benjaminbluhm/Training/_git/Training 
 - Create a new git branch (with a name of your choice), later you will Git commit and push you code changes using this branch 
-- Create two new Python files called `my_functions.py` and `my_classes.py`
+- Create two new empty Python files called `my_functions.py` and `my_classes.py`
 
 # 2.) 
 Consider the following example pandas dataframe:
