@@ -45,11 +45,11 @@ Write a new class `ChildTransformer` in `my_classes.py` that inherets from `Tran
 
 - `df1`: the square root of each element in `df`
 
-# Question 6
+# 8.)
 Consider the following function:
 
 The code in this function violates some of python's coding best practices (for example PEP8). Modify the code to improve on coding best practice   
 
-# Question 7
-- Commit your code changes 
-- Git push and raise a Pull Request against master branch 
+# 9.)
+- Git commit your code changes 
+- Git push your code changes  
