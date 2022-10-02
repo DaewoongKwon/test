@@ -6,7 +6,7 @@ The following questions assume that you have Python and Git installed on your sy
 # 1.)
 - Clone the following repo into your local environment: https://benjaminbluhm@dev.azure.com/benjaminbluhm/Training/_git/Training 
 - Create a new git branch (with a name of your choice), later you will Git commit and push you code changes using this branch 
-- Create two new empty Python files called `my_functions.py` and `my_classes.py`
+- Create three new empty Python files called `my_functions.py`, `my_pandas_operations.py` and `my_classes.py`
 
 # 2.) 
 Consider the following example pandas dataframe:
@@ -41,7 +41,7 @@ Consider the following two example dataframes:
 1   bzz  40
 ```
 
-Write a Python statement that joins the two dataframes on column `a` such that the resulting dataframe contains all records from `df1`, and the matching records from `df2`.
+Add a Python statement to `my_pandas_operations.py` that joins the two dataframes on column `a` such that the resulting dataframe contains all records from `df1`, and the matching records from `df2`.
 
 # 4.)
 
