@@ -19,7 +19,7 @@ Consider the following example pandas dataframe:
 1  9  16
 2  9  16
 ```
-Write a new function called `transform` in `my_functions.py` that takes this dataframe as an input and returns 3 dataframes with the following result:
+Add a new function called `transform` to `my_functions.py` that takes this dataframe as an input and returns 3 dataframes with the following result:
 
 - `df1`: the square root of each element in `df`
 - `df2`: the column sums of each column in `df`
@@ -31,7 +31,7 @@ Write a new function called `transform` in `my_functions.py` that takes this dat
 
 # 5.)
 
-Write a new class called `Transformer` in `my_classes.py` that takes a dataframe as an input argument. Add a new class method using your previously defined `transform` function. 
+Add a new class called `Transformer` to `my_classes.py` that takes a dataframe as an input argument. Add a new class method using your previously defined `transform` function. 
 
 Instantiate the class and call the class method where you provide the example dataframe from Question 2.)
 
