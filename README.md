@@ -4,6 +4,8 @@ Please try to address the following questions as much as possible, different sol
 The following questions assume that you have Python and Git installed on your system. If you do not have Git installed on your system you can download it for your operating system via this link: https://git-scm.com/downloads
 
 # 1.)
+Note: If you have not used Git before you can find numerous resources on the internet that will help you to complete the below steps.
+
 - Clone the following repo into your local environment: https://benjaminbluhm@dev.azure.com/benjaminbluhm/Training/_git/Training. When you clone the repo you will be asked to enter a Username and Password, to get this follow these steps:
   - Follow this link: https://dev.azure.com/benjaminbluhm/Training/_git/Training
   - Click on the `Clone` button in the top right 
